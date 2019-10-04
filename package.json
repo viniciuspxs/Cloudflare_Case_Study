@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_deploy_to_digitalocean_tutorial",
+  "version": "1.0.0",
+  "description": "Sample Code for NodeJS Deployment Tutorial to Digital Ocean Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdamin/NodeJS_Deploy_To_DigitalOcean_Tutorial.git"
+  },
+  "author": "Abdullah Amin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdamin/NodeJS_Deploy_To_DigitalOcean_Tutorial/issues"
+  },
+  "homepage": "https://github.com/abdamin/NodeJS_Deploy_To_DigitalOcean_Tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3"
+  }
+}
